@@ -64,6 +64,7 @@ HEADING
   background: url("../img/cooper.JPG") no-repeat center;
   background-size: cover;
   height: 850px;
+  text-shadow: 2px 2px black;
 }
 
 .website-name {
