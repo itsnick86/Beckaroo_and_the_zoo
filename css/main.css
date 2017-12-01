@@ -63,7 +63,17 @@ HEADING
   width: 100%;
   background: url("../img/cooper.JPG") no-repeat center;
   background-size: cover;
-  height: 850px;
+  height: 95vh;
+  text-shadow: 2px 2px black;
+}
+
+.secondary-header {
+  padding: 5px 0 0 0;
+  margin: 0 0 0px 0;
+  width: 100%;
+  background: url("../img/cooper.JPG") no-repeat center;
+  background-size: cover;
+  height: 95vh;
   text-shadow: 2px 2px black;
 }
 
@@ -97,6 +107,11 @@ NAVIGATION
   display: inline;
   padding: 5px 5px;
   margin: 0 0;
+}
+
+.active-link {
+  text-decoration: underline;
+  color: #FFF;
 }
 
 
@@ -234,7 +249,8 @@ MEDIA QUERIES
 
 @media screen and (min-width: 768px) {
 
-  .main-header {
+  .main-header
+  .secondary-header {
     padding-bottom: 75px;
   }
 
